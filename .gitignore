@@ -1,0 +1,204 @@
+# ==================================================
+# BdSLW60 SPOTER Research Project .gitignore
+# ==================================================
+
+# Dataset and Data Files
+# ==================================================
+data/
+dataset/
+datasets/
+*.zip
+*.rar
+*.tar.gz
+*.7z
+
+# Processed Data (Large Files)
+# ==================================================
+processed_data/
+results/
+output/
+logs/
+checkpoints/
+models/
+saved_models/
+experiments/
+
+# Video and Media Files
+# ==================================================
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.wmv
+*.flv
+*.webm
+*.m4v
+
+# Image Files (if generated)
+# ==================================================
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.svg
+
+# Model and ML Files
+# ==================================================
+*.pth
+*.pt
+*.ckpt
+*.h5
+*.pkl
+*.pickle
+*.joblib
+*.model
+
+# Python
+# ==================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+# ==================================================
+spoter_env/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.conda/
+
+# Jupyter Notebook
+# ==================================================
+.ipynb_checkpoints
+*.ipynb
+
+# PyTorch
+# ==================================================
+*.pth
+*.pt
+
+# TensorFlow
+# ==================================================
+*.pb
+*.tflite
+*.trt
+
+# CUDA
+# ==================================================
+*.cubin
+*.fatbin
+
+# IDE and Editor Files
+# ==================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+
+# System Files
+# ==================================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary Files
+# ==================================================
+*.tmp
+*.temp
+*.log
+*.out
+*.err
+
+# Configuration Files (with sensitive data)
+# ==================================================
+config.json
+settings.json
+credentials.json
+*.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Large JSON Files (processed data)
+# ==================================================
+*_landmarks.json
+*_normalized.json
+*_training_data.json
+analysis_report.json
+
+# Research Specific
+# ==================================================
+papers/
+references/
+literature/
+backup/
+old/
+archive/
+test_videos/
+sample_data/
+
+# Memory Dumps
+# ==================================================
+*.stackdump
+core
+
+# Coverage Reports
+# ==================================================
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Documentation
+# ==================================================
+docs/_build/
+site/
+
+# Weights & Biases (if you use it later)
+# ==================================================
+wandb/
+
+# MLflow (if you use it later)
+# ==================================================
+mlruns/
+
+# Specific to your project structure
+# ==================================================
+src/__pycache__/
+*.pyc
+spoter_env/
