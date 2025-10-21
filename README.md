@@ -287,10 +287,10 @@ If you use BdSL-SPOTER in your research, please cite:
 ```bibtex
 @article{bdsl_spoter2024,
   title={BdSL-SPOTER: A Transformer-Based Framework for Bengali Sign Language Recognition with Cultural Adaptation},
-  author={Anonymous Authors},
-  journal={IEEE Conference Proceedings},
-  year={2024},
-  note={Under Review}
+  author={Sayad Ibna Azad, Md Atiqur Rahman},
+  journal={Accepted in ISVC},
+  year={2025},
+  note={Accepted}
 }
 ```
 
@@ -309,9 +309,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 For questions, suggestions, or collaboration opportunities:
 
-- **Email**: [contact@bdsl-spoter.org](mailto:contact@bdsl-spoter.org)
-- **Issues**: [GitHub Issues](https://github.com/your-repo/bdsl-spoter/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/your-repo/bdsl-spoter/discussions)
+- **Email**: [Sayad Ibna Azad](mailto:sayadkhan0555@gmail.com)
 
 ## 🌟 Star History
 
